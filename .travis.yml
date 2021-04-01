@@ -1,4 +1,5 @@
-:
+
+de_js:
   - "10"
 
 after_script:
@@ -10,9 +11,10 @@ after_script:
   - git init
   - git config user.name "xuetinga"
   - git config user.email "1716237703@qq.com"
+  - cp ../CNAME .
   - git add .
-  - git commit -m "publish gitbook"i
-  - git push --force --quiet "https://${ACC_TOKEN}@${GH_REF}" master:${BRANCH}
+  - git commit -m "publish gitbook"
+  - git push --force --quiet "https://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@github.com/xuetinga/TTBOOKS" master:${gh-pages}
 
 branches:
   only:
