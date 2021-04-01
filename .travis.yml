@@ -12,7 +12,7 @@ after_script:
   - git config user.email "1716237703@qq.com"
   - git add .
   - git commit -m "publish gitbook"
-  - git push --force --quiet "https://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@github.com/xuetinga/TTBOOKS" master:${gh-pages}
+  - git push --force --quiet "https://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@github.com/xuetinga/TTBOOKS" master:gh-pages
 
 branches:
   only:
