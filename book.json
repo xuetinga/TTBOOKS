@@ -1,0 +1,62 @@
+{
+    "title": "东野奎吾小说集",
+    "description" : "东野的小说",
+    "author": "刘雪亭",
+    "language": "zh-hans",
+    "plugins": [
+      "-lunr",
+      "-search",
+      "-highlight",
+      "-sharing",
+      "edit-link",
+      "forkmegithub-cn",
+      "search-plus",
+      "sharing-plus",
+      "anchor-navigation-ex",
+      "copy-code-button",
+      "prism",
+      "splitter",
+      "image-captions-extended",
+      "bsz",
+      "fancybox",
+      "image-wrapper",
+      "gtalk"
+    ],
+    "pluginsConfig": {
+      "anchor-navigation-ex": {
+        "multipleH1": false
+      },
+      "forkmegithub-cn": {
+        "url": "https://github.com/xuetinga/TTBOOKS",
+        "color": "red"
+      },
+      "sharing": {
+        "douban": true,
+        "facebook": true,
+        "google": false,
+        "hatenaBookmark": false,
+        "instapaper": false,
+        "line": false,
+        "linkedin": false,
+        "messenger": false,
+        "pocket": false,
+        "qq": true,
+        "qzone": true,
+        "stumbleupon": false,
+        "twitter": false,
+        "viber": false,
+        "vk": false,
+        "weibo": true,
+        "whatsapp": false,
+        "all": [
+          "weibo", "douban", "qzone", "qq", "facebook"
+        ]
+      },
+      "bsz": {
+        "copyright": "2018&nbsp;-&nbsp;<span class=\"bsz-this-year\"></span>&nbsp;by&nbsp;刘雪亭.&nbsp;欢迎你的到来."
+      }
+    },
+    "styles": {
+     
+    }
+  }
